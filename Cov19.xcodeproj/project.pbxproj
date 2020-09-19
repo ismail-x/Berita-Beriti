@@ -13,6 +13,8 @@
 		EC82793825169D4200362A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC82793625169D4200362A5F /* Main.storyboard */; };
 		EC82793A25169D4400362A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC82793925169D4400362A5F /* Assets.xcassets */; };
 		EC82793D25169D4400362A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC82793B25169D4400362A5F /* LaunchScreen.storyboard */; };
+		EC8279472516A41600362A5F /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8279462516A41600362A5F /* Petition.swift */; };
+		EC8279512516B49300362A5F /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8279502516B49300362A5F /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EC82793925169D4400362A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC82793C25169D4400362A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC82793E25169D4400362A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8279462516A41600362A5F /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		EC8279502516B49300362A5F /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EC82793025169D4200362A5F /* AppDelegate.swift */,
 				EC82793225169D4200362A5F /* SceneDelegate.swift */,
 				EC82793425169D4200362A5F /* ViewController.swift */,
+				EC8279462516A41600362A5F /* Petition.swift */,
+				EC8279502516B49300362A5F /* Petitions.swift */,
 				EC82793625169D4200362A5F /* Main.storyboard */,
 				EC82793925169D4400362A5F /* Assets.xcassets */,
 				EC82793B25169D4400362A5F /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				EC82793525169D4200362A5F /* ViewController.swift in Sources */,
 				EC82793125169D4200362A5F /* AppDelegate.swift in Sources */,
+				EC8279472516A41600362A5F /* Petition.swift in Sources */,
 				EC82793325169D4200362A5F /* SceneDelegate.swift in Sources */,
+				EC8279512516B49300362A5F /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8XJKQSAWS;
 				INFOPLIST_FILE = Cov19/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8XJKQSAWS;
 				INFOPLIST_FILE = Cov19/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
